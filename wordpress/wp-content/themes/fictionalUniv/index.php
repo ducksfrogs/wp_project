@@ -1,8 +1,19 @@
 <?php
-  function greet($name, $color)
-  {
-    echo "<p>Hello, $name is my first function. My fv color is $color</p>";
-  }
-  greet('Jone', 'green');
-  greet("Jane", "re")
+ $names = array('Brad', 'John', 'Jane', 'Mimi' );
+ $count = 0;
+ while($count<4) {
+   echo "<li>Hi my name is $names[$count] </li>";
+   $count++;
+ }
+# $count = 1;
+# while ($count < 100) {
+#   echo "<li>$count</li>";
+#   $count ++;
+ }
 ?>
+
+
+
+
+
+<p>Hi, my name is <?php echo $names[1] ?></p>
